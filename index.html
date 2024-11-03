@@ -16,7 +16,7 @@
 <body>
 <header class="header">
     <div class="header__logo">
-        <img src="images/menu.svg" alt="menu" class="header__menu">
+        <button class="header__button-img-menu"><img src="images/menu.svg" alt="menu" class="header__menu"></button>
         <img src="images/logo.png" alt="Logo" class="header__logo-image">
     </div>
     <div class="header__search">
@@ -24,20 +24,127 @@
         <img src="images/search.svg" alt="search" class="header__search-icon">
     </div>
     <div class="header__utils">
-        <img src="images/video.svg" alt="video" class="header__utils-icon">
-        <img src="images/utils.svg" alt="utils" class="header__utils-icon">
-        <img src="images/ring.svg" alt="ring" class="header__utils-icon">
-        <p class="header__utils-notification">3</p>
+        <button class="header__button-utils">
+            <img src="images/video.svg" alt="video" class="header__utils-icon">
+        </button>
+        <button class="header__button-utils">
+            <img src="images/utils.svg" alt="utils" class="header__utils-icon">
+        </button>
+        <button class="header__button-utils notification">
+            <img src="images/ring.svg" alt="ring" class="header__utils-icon">
+        </button>
     </div>
     <div class="header__avatar-container">
         <img src="images/avatar.png" alt="avatar" class="header__avatar">
     </div>
 </header>
+<aside class="sidebar">
+    <nav>
+        <ul class="sidebar-container">
+            <li class="sidebar-container__item"><a href="#"><img src="images/home.svg" alt="home"
+                                                                 class="sidebar-container__item-img">
+                <p class="sidebar-container__item-img-name sidebar-container__item-img-name_home">Home</p></a>
+            </li>
+            <li class="sidebar-container__item"><a href="#"><img src="images/trend.svg" alt="trending"
+                                                                 class="sidebar-container__item-img">
+                <p class="sidebar-container__item-img-name">Trending</p></a>
+            </li>
+            <li class="sidebar-container__item"><a href="#"><img src="images/subscribe.svg" alt="subscriptions"
+                                                                 class="sidebar-container__item-img">
+                <p class="sidebar-container__item-img-name">Subscriptions</p></a>
+            </li>
+        </ul>
+        <ul class="sidebar-container">
+            <li class="sidebar-container__item"><a href="#"><img src="images/library.svg" alt="library"
+                                                                 class="sidebar-container__item-img">
+                <p class="sidebar-container__item-img-name">Library</p></a>
+            </li>
+            <li class="sidebar-container__item"><a href="#"><img src="images/history.svg" alt="history"
+                                                                 class="sidebar-container__item-img">
+                <p class="sidebar-container__item-img-name">History</p></a>
+            </li>
+            <li class="sidebar-container__item"><a href="#"> <img src="images/watch.svg" alt="watch later"
+                                                                  class="sidebar-container__item-img">
+                <p class="sidebar-container__item-img-name">Watch later</p></a>
+            </li>
+            <li class="sidebar-container__item"><a href="#"><img src="images/favourites.svg" alt="favourites"
+                                                                 class="sidebar-container__item-img">
+                <p class="sidebar-container__item-img-name">Favourites</p></a>
+            </li>
+            <li class="sidebar-container__item"><a href="#"><img src="images/like.svg" alt="liked videos"
+                                                                 class="sidebar-container__item-img">
+                <p class="sidebar-container__item-img-name">Liked videos</p>
+            </a>
+            </li>
+            <li class="sidebar-container__item"><a href="#"><img src="images/music.svg" alt="music"
+                                                                 class="sidebar-container__item-img">
+                <p class="sidebar-container__item-img-name">Music</p></a>
+            </li>
+            <li class="sidebar-container__item"><a href="#"><img src="images/games.svg" alt="games"
+                                                                 class="sidebar-container__item-img">
+                <p class="sidebar-container__item-img-name">Games</p></a>
+            </li>
+            <li class="sidebar-container__item"><a href="#"><img src="images/show.svg" alt="show more"
+                                                                 class="sidebar-container__item-img">
+                <p class="sidebar-container__item-img-name">Show more</p></a>
+            </li>
+        </ul>
+        <section class="sidebar-container-subscription">
+            <p class="sidebar-container__subscription-title">Subscriptions</p>
+            <ul class="sidebar-container__subscription">
+                <li class="sidebar-container__subscription_item"><a href="#"><img src="images/dollie_blair.png"
+                                                                                  alt="Gussie Singleton"
+                                                                                  class="sidebar-container__subscribe-item-img">
+                    <p class="sidebar-container__subscribe-item-img-name">Gussie Singleton</p></a>
+                </li>
+                <li class="sidebar-container__subscription_item"><a href="#"><img src="images/nora.png"
+                                                                                  alt="Nora Francis"
+                                                                                  class="sidebar-container__subscribe-item-img">
+                    <p class="sidebar-container__subscribe-item-img-name">Nora Francis</p></a>
+                </li>
+                <li class="sidebar-container__subscription_item"><a href="#"><img src="images/belle.png"
+                                                                                  alt="Belle Briggs"
+                                                                                  class="sidebar-container__subscribe-item-img">
+                    <p class="sidebar-container__subscribe-item-img-name">Belle Briggs</p></a>
+                </li>
+                <li class="sidebar-container__subscription_item"><a href="#"><img src="images/eunice.png"
+                                                                                  alt="Eunice Cortez"
+                                                                                  class="sidebar-container__subscribe-item-img">
+                    <p class="sidebar-container__subscribe-item-img-name">Eunice Cortez</p></a>
+                </li>
+                <li class="sidebar-container__subscription_item"><a href="#"><img src="images/emma.png"
+                                                                                  alt="Emma Hanson"
+                                                                                  class="sidebar-container__subscribe-item-img">
+                    <p class="sidebar-container__subscribe-item-img-name">Emma Hanson</p></a>
+                </li>
+                <li class="sidebar-container__subscription_item"><a href="#"><img src="images/leah.png"
+                                                                                  alt="Leah Berry"
+                                                                                  class="sidebar-container__subscribe-item-img">
+                    <p class="sidebar-container__subscribe-item-img-name">Leah Berry</p></a>
+                </li>
+            </ul>
+        </section>
+        <ul class="sidebar-container">
+            <li class="sidebar-container__setting"><a href="#"> <img src="images/setting.svg"
+                                                                     alt="setting"
+                                                                     class="sidebar-container__setting-item-img">
+                <p class="sidebar-container__setting-item-img-name">Setting</p></a>
+            </li>
+        </ul>
+    </nav>
+</aside>
 <main class="content">
     <div class="content__tittle-video-list">
-        <img src="images/dollie_blair.png" alt="Dollie" class="content__tittle-image">
-        <p class="content__tittle-text">Dollie Blair</p>
-        <img src="images/arrows.svg" alt="arrow" class="content__tittle-button-next">
+        <div class="content__tittle">
+            <img src="images/dollie_blair.png" alt="Dollie" class="content__tittle-image">
+            <p class="content__tittle-text">Dollie Blair</p>
+        </div>
+        <div class="content__button-items">
+            <button class="content__button-arrow"><img src="images/arrowLeft.svg" alt="arrow"
+                                                       class="content__tittle-button-next"></button>
+            <button class="content__button-arrow"><img src="images/arrowRight.svg" alt="arrow"
+                                                       class="content__tittle-button-next"></button>
+        </div>
     </div>
     <section class="content__video-list">
         <div class="content__video-item">
@@ -69,7 +176,7 @@
         </div>
         <div class="content__video-item">
             <div class="content__video-img-block">
-                <img src="images/image4.png" alt="i" class="content__video-img">
+                <img src="images/image4.png" alt="image" class="content__video-img">
                 <p class="content__video-duration">6:40</p>
             </div>
             <p class="content__video-name">Telescopes 101</p>
@@ -96,8 +203,15 @@
         </div>
     </section>
     <div class="content__tittle-video-list">
-        <p class="content__tittle-text">Recommended</p>
-        <img src="images/arrows.svg" alt="arrow" class="content__tittle-button-next">
+        <div class="content__tittle">
+            <p class="content__tittle-text">Recommended</p>
+        </div>
+        <div class="content__button-items">
+            <button class="content__button-arrow"><img src="images/arrowLeft.svg" alt="arrow"
+                                                       class="content__tittle-button-next"></button>
+            <button class="content__button-arrow"><img src="images/arrowRight.svg" alt="arrow"
+                                                       class="content__tittle-button-next"></button>
+        </div>
     </div>
     <section class="content__video-list-rec">
         <div class="content__video-item-rec">
@@ -129,11 +243,19 @@
         </div>
     </section>
     <div class="content__tittle-video-list">
-        <img src="images/fruits.png" alt="fruits" class="content__tittle-image">
-        <p class="content__tittle-text">Food & Drink</p>
-        <span class="content__title-info">Recommended channel for you</span>
-        <img src="images/buttonSubscribe.svg" alt="buttonSubscribe" class="content__tittle-button-subscribe">
-        <img src="images/arrows.svg" alt="arrow" class="content__tittle-button-next">
+        <div class="content__tittle">
+            <img src="images/fruits.png" alt="fruits" class="content__tittle-image">
+            <p class="content__tittle-text">Food & Drink</p>
+            <span class="content__title-info">Recommended channel for you</span>
+        </div>
+        <div class="content__button-items">
+            <button class="content__button-subscribe"><img src="images/buttonSubscribe.svg" alt="buttonSubscribe"
+                                                           class="content__tittle-button-subscribe"></button>
+            <button class="content__button-arrow"><img src="images/arrowLeft.svg" alt="arrow"
+                                                       class="content__tittle-button-next"></button>
+            <button class="content__button-arrow"><img src="images/arrowRight.svg" alt="arrow"
+                                                       class="content__tittle-button-next"></button>
+        </div>
     </div>
     <section class="content__video-list">
         <div class="content__video-item">
@@ -192,8 +314,8 @@
         </div>
     </section>
 </main>
-<footer class="footer">
-    <div class="footer__visible">
+<footer>
+    <div class="footer">
         <div class="footer__item">
             <img src="images/home.svg" alt="home" class="footer__item-img-home">
             <p class="footer__item-img-name footer__item-img-name_home">Home</p>
@@ -209,67 +331,6 @@
         <div class="footer__item footer__item_library">
             <img src="images/library.svg" alt="library" class="footer__item-img-library">
             <p class="footer__item-img-name">Library</p>
-        </div>
-    </div>
-    <div class="footer__invisible-sidebar">
-        <div class="footer__sidebar-item">
-            <img src="images/history.svg" alt="history" class="footer__sidebar-item-img">
-            <p class="footer__sidebar-item-img-name">History</p>
-        </div>
-        <div class="footer__sidebar-item">
-            <img src="images/watch.svg" alt="watch later" class="footer__sidebar-item-img">
-            <p class="footer__sidebar-item-img-name">Watch later</p>
-        </div>
-        <div class="footer__sidebar-item">
-            <img src="images/favourites.svg" alt="favourites" class="footer__sidebar-item-img">
-            <p class="footer__sidebar-item-img-name">Favourites</p>
-        </div>
-        <div class="footer__sidebar-item">
-            <img src="images/like.svg" alt="liked videos" class="footer__sidebar-item-img">
-            <p class="footer__sidebar-item-img-name">Liked videos</p>
-        </div>
-        <div class="footer__sidebar-item">
-            <img src="images/music.svg" alt="music" class="footer__sidebar-item-img">
-            <p class="footer__sidebar-item-img-name">Music</p>
-        </div>
-        <div class="footer__sidebar-item">
-            <img src="images/games.svg" alt="games" class="footer__sidebar-item-img">
-            <p class="footer__sidebar-item-img-name">Games</p>
-        </div>
-        <div class="footer__sidebar-item">
-            <img src="images/show.svg" alt="show more" class="footer__sidebar-item-img">
-            <p class="footer__sidebar-item-img-name">Show more</p>
-        </div>
-        <div class="footer__subscription">
-            <p class="footer__subscription-title">Subscriptions</p>
-            <div class="footer__subscription_item">
-                <img src="images/dollie_blair.png" alt="Gussie Singleton" class="footer__subscribe-item-img">
-                <p class="footer__subscribe-item-img-name">Gussie Singleton</p>
-            </div>
-            <div class="footer__subscription_item">
-                <img src="images/nora.png" alt="Nora Francis" class="footer__subscribe-item-img">
-                <p class="footer__subscribe-item-img-name">Nora Francis</p>
-            </div>
-            <div class="footer__subscription_item">
-                <img src="images/belle.png" alt="Belle Briggs" class="footer__subscribe-item-img">
-                <p class="footer__subscribe-item-img-name">Belle Briggs</p>
-            </div>
-            <div class="footer__subscription_item">
-                <img src="images/eunice.png" alt="Eunice Cortez" class="footer__subscribe-item-img">
-                <p class="footer__subscribe-item-img-name">Eunice Cortez</p>
-            </div>
-            <div class="footer__subscription_item">
-                <img src="images/emma.png" alt="Emma Hanson" class="footer__subscribe-item-img">
-                <p class="footer__subscribe-item-img-name">Emma Hanson</p>
-            </div>
-            <div class="footer__subscription_item">
-                <img src="images/leah.png" alt="Leah Berry" class="footer__subscribe-item-img">
-                <p class="footer__subscribe-item-img-name">Leah Berry</p>
-            </div>
-        </div>
-        <div class="footer__setting">
-            <img src="images/setting.svg" alt="setting" class="footer__setting-img">
-            <p class="footer__setting-img-name">Setting</p>
         </div>
     </div>
 </footer>
