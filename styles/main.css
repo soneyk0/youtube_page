@@ -1,0 +1,239 @@
+.content {
+    padding: 74px 16px;
+    @media (min-width: 1024px) {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        order: 1;
+        margin-left: 255px;
+    }
+}
+
+.content_title {
+    display: none;
+
+}
+
+.content__tittle-video-list {
+    display: none;
+    @media (min-width: 1024px) {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        gap: 20px
+    }
+}
+
+.content__tittle {
+    display: flex;
+    align-items: center;
+}
+
+.content__tittle-button-subscribe {
+    margin-right: 30px;
+}
+
+.content__tittle-image {
+    @media (min-width: 1024px) {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+}
+
+.content__tittle-text {
+    @media (min-width: 1024px) {
+        display: inline-block;
+        font-family: Mulish;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 33px;
+        text-align: left;
+    }
+}
+
+.content__button-items {
+    display: flex;
+    align-items: center;
+    margin-right: 149px;
+}
+
+
+.content__title-info {
+    @media (min-width: 1024px) {
+        padding-left: 19px;
+        font-family: Mulish;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+        color: var(--main-content-color);
+    }
+}
+
+.content__video-list, .content__video-list-rec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+    @media (min-width: 1024px) {
+        white-space: nowrap;
+        flex-direction: row;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+}
+
+.content__video-list:hover, .content__video-list-rec:hover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+    @media (min-width: 1024px) {
+        white-space: nowrap;
+        flex-direction: row;
+        overflow-x: auto;
+        overflow-y: clip;
+        scrollbar-width:thin;
+    }
+}
+
+
+.content__video-item {
+    width: 100%;
+    @media (min-width: 1024px) {
+        margin-right: 40px;
+        display: inline-block;
+        width: 100%;
+        min-width: 250px;
+        max-height: 200px;
+    }
+}
+
+.content__video-item-rec {
+    width: 100%;
+    @media (min-width: 1024px) {
+        margin-right: 40px;
+        display: inline-block;
+        width: 100%;
+        min-width: 540px;
+        max-height: 300px;
+    }
+}
+
+.content__video-img-block {
+    position: relative;
+    height: 47vw;
+    width: 100%;
+    @media (min-width: 1024px) {
+        max-width: 250px;
+        max-height: 150px;
+    }
+}
+
+.content__video-img-block-rec {
+    position: relative;
+    height: 47vw;
+    width: 100%;
+    @media (min-width: 1024px) {
+        max-width: 540px;
+        max-height: 250px;
+    }
+}
+
+.content__video-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    @media (min-width: 1024px) {
+        display: inline-block;
+        width: 100%;
+        min-width: 250px;
+        max-height: 150px;
+    }
+}
+
+.content__video-img-rec {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    @media (min-width: 1024px) {
+        display: inline-block;
+        width: 100%;
+        min-width: 250px;
+        max-height: 250px;
+    }
+}
+
+.content__video-duration {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: var( --white);
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: right;
+    bottom: 4vw;
+    right: 4vw;
+    padding: 3px 9px;
+    border-radius: 12px;
+    @media (min-width: 1024px) {
+        bottom: 10px;
+        right: 10px;
+    }
+}
+
+.content__video-name {
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    color: #19202C;
+    padding-top: 8px;
+    padding-bottom: 4px;
+}
+
+.content__video-info {
+    font-family: Mulish;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: var(--main-content-color);
+}
+
+.content__video-author {
+    font-family: Mulish;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    align-items: end;
+    color: var(--main-content-color);
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
